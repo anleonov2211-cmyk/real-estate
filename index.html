@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Антон Леонов · Риелтор — Москва и вся Россия | агентство ВамКнам</title>
+<meta name="description" content="Частный риелтор: покупка, продажа, аренда и инвестиции в недвижимость. Москва и вся Россия. Современный маркетинг, сопровождение под ключ, на связи 7 дней в неделю.">
+<link rel="icon" href="assets/vamknam-mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/hero-room.jpg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============ ШАПКА ============ -->
+<header class="header">
+  <div class="wrap header__inner">
+    <a href="#top" class="brand" aria-label="На главную">
+      <span class="brand__mark"><img src="assets/vamknam-mark.png" alt="ВамКнам"></span>
+      <span>
+        <span class="brand__name">Антон Леонов</span>
+        <span class="brand__role">Риелтор · агентство ВамКнам</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#services">Услуги</a>
+      <a href="#about">Обо мне</a>
+      <a href="#process">Как работаю</a>
+      <a href="#objects">Объекты</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <div class="header__actions">
+      <a href="tel:+79167691476" class="header__phone">+7 916 769-14-76</a>
+      <a href="https://t.me/HideenV" target="_blank" rel="noopener" class="btn btn--primary">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.94 4.6 18.9 19.2c-.23 1.02-.84 1.27-1.7.79l-4.7-3.46-2.27 2.18c-.25.25-.46.46-.94.46l.33-4.76 8.66-7.82c.38-.33-.08-.52-.59-.18L6.66 13.4l-4.6-1.44c-1-.31-1.02-1 .21-1.48l17.95-6.92c.83-.31 1.56.2 1.29 1.4-.01.01.43-.34.43-.34Z"/></svg>
+        <span class="hide-sm">Написать</span>
+      </a>
+    </div>
+    <button class="burger" aria-label="Меню"><span></span></button>
+  </div>
+</header>
+
+<!-- ============ МОБИЛЬНОЕ МЕНЮ ============ -->
+<div class="mobile-menu">
+  <a href="#services">Услуги</a>
+  <a href="#about">Обо мне</a>
+  <a href="#process">Как работаю</a>
+  <a href="#objects">Объекты</a>
+  <a href="#reviews">Отзывы</a>
+  <a href="#faq">Вопросы</a>
+  <a href="https://t.me/HideenV" target="_blank" rel="noopener" class="btn btn--primary btn--lg">Написать в Telegram</a>
+  <a href="tel:+79167691476" class="btn btn--ghost btn--lg">Позвонить · +7 916 769-14-76</a>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <!-- Кинематографичная сцена интерьера (2.5D-камера) -->
+  <div class="hero__scene" id="hero-scene">
+    <div class="hero__room" id="hero-room"></div>
+    <div class="hero__grade"></div>
+    <!-- Интерактивные точки (скрыты на мобиле) -->
+    <button class="hero__pin hero__pin--win" type="button" aria-label="Премиальные объекты">
+      <span class="hero__pin-dot"></span>
+      <span class="hero__pin-card">
+        <b>Премиальные объекты</b>
+        <span>Квартиры, дома и инвестиционные объекты, отобранные под задачу клиента.</span>
+      </span>
+    </button>
+    <button class="hero__pin hero__pin--sofa" type="button" aria-label="Личное сопровождение">
+      <span class="hero__pin-dot"></span>
+      <span class="hero__pin-card">
+        <b>Личное сопровождение</b>
+        <span>Контроль документов, переговоров и всех этапов сделки.</span>
+      </span>
+    </button>
+  </div>
+  <div class="hero__overlay"></div>
+
+  <div class="wrap hero__grid">
+    <div class="hero__copy" id="hero-copy">
+      <span class="eyebrow">Частный риелтор · Москва и Россия</span>
+      <h1 class="hero__title">
+        <span class="hero__line">Недвижимость для жизни</span>
+        <span class="hero__line accent">и инвестиций</span>
+      </h1>
+      <p class="hero__sub">Помогаю купить, продать или арендовать недвижимость. Лично сопровождаю сделку от первого обращения до передачи ключей.</p>
+      <div class="hero__cta">
+        <a href="#objects" class="btn btn--primary btn--lg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg>
+          Смотреть объекты
+        </a>
+        <a href="#contact" class="btn btn--outline-white btn--lg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z"/></svg>
+          Получить консультацию
+        </a>
+      </div>
+      <div class="hero__signals">
+        <span class="chip"><span class="dot"></span>На связи 7 дней в неделю</span>
+        <span class="chip"><span class="dot"></span>Сопровождение под ключ</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Портрет риелтора -->
+  <figure class="hero__agent">
+    <span class="hero__agent-photo">
+      <img src="assets/anton.jpg" alt="Антон Леонов, риелтор агентства ВамКнам" loading="eager">
+    </span>
+    <figcaption class="hero__agent-info">
+      <span class="hero__agent-status"><span class="hero__agent-live"></span>Антон на связи</span>
+      <b>Антон Леонов</b>
+      <small>Ваш персональный риелтор</small>
+    </figcaption>
+  </figure>
+</section>
+
+<!-- ============ ПРИНЦИПЫ (честные, без выдуманных цифр) ============ -->
+<section class="pillars" aria-label="Подход к работе">
+  <div class="wrap">
+    <div class="pillars__grid">
+      <div class="pillar reveal"><div class="pillar__k">Москва <span class="u">+</span> вся&nbsp;Россия</div><div class="pillar__l">Сопровождаю сделки в столице и в любом регионе — лично и онлайн.</div></div>
+      <div class="pillar reveal" data-d="1"><div class="pillar__k">7 <span class="u">/</span> 7</div><div class="pillar__l">На связи каждый день. Отвечаю быстро — в Telegram и по телефону.</div></div>
+      <div class="pillar reveal" data-d="2"><div class="pillar__k">Под <span class="u">ключ</span></div><div class="pillar__l">Беру на себя показы, переговоры, документы и расчёты.</div></div>
+      <div class="pillar reveal" data-d="3"><div class="pillar__k">0 <span class="u">конвейера</span></div><div class="pillar__l">Веду ограниченное число клиентов — каждому полное внимание.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ УСЛУГИ ============ -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Услуги</span>
+      <h2>Полный спектр работы<br>с недвижимостью</h2>
+      <p class="sub">От подбора квартиры мечты до сложной инвестиционной сделки — закрываю любую задачу и беру на себя всю рутину.</p>
+    </div>
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 9.5V21h14V9.5"/><path d="M9 21v-6h6v6"/></svg></div>
+        <h3>Покупка</h3>
+        <p>Подберу объект под ваш бюджет и цели, проверю историю и помогу выторговать лучшую цену.</p>
+      </article>
+      <article class="card reveal" data-d="1">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V8l7-5 7 5v13"/><path d="M9 21v-5h6v5"/><path d="M16 7l3 2"/></svg></div>
+        <h3>Продажа</h3>
+        <p>Профессиональная съёмка, видео и реклама на площадках и в соцсетях — объект продаётся дороже и быстрее.</p>
+      </article>
+      <article class="card reveal" data-d="2">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-6 9 6v11a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/><circle cx="12" cy="11" r="1.6"/></svg></div>
+        <h3>Аренда</h3>
+        <p>Сдам или найду жильё с проверенными арендаторами и прозрачным договором без сюрпризов.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l5-5 4 4 8-8"/><path d="M16 8h4v4"/></svg></div>
+        <h3>Инвестиции</h3>
+        <p>Помогу выбрать ликвидный объект с понятной доходностью и стратегией выхода.</p>
+      </article>
+      <article class="card reveal" data-d="1">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="1.5"/><path d="M8 7h8M8 11h8M8 15h5"/></svg></div>
+        <h3>Новостройки</h3>
+        <p>Подбор от застройщиков по всей России — без комиссии для покупателя, с бронированием лучших лотов.</p>
+      </article>
+      <article class="card reveal" data-d="2">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><path d="M12 3 4 6v6c0 5 3.5 7.5 8 9 4.5-1.5 8-4 8-9V6Z"/></svg></div>
+        <h3>Ипотека и юр. сопровождение</h3>
+        <p>Подберу банк и ставку, проверю чистоту сделки и сопровожу её юридически от и до.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ОБО МНЕ ============ -->
+<section class="about" id="about">
+  <div class="wrap about__grid">
+    <div class="about__photo reveal">
+      <div class="photo-frame">
+        <img src="assets/anton.jpg" alt="Антон Леонов">
+      </div>
+    </div>
+    <div class="about__body">
+      <span class="eyebrow reveal">Обо мне</span>
+      <h2 class="reveal" data-d="1">Антон Леонов — риелтор, который работает на ваш результат</h2>
+      <p class="about__lead reveal" data-d="2">Я Антон, частный риелтор агентства ВамКнам. Работаю с 2025 года и веду каждую сделку лично — от первого звонка до получения ключей. Молодость для меня преимущество: больше энергии, современные инструменты и полная вовлечённость в вашу задачу.</p>
+      <p class="about__text reveal" data-d="2">Знаю рынок Москвы и работаю по всей России — лично и онлайн. Каждую задачу веду как личный проект: глубоко погружаюсь, держу в курсе на каждом шаге и отвечаю за итог.</p>
+      <ul class="usp reveal" data-d="3">
+        <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span class="t"><b>Современный маркетинг объектов.</b> Профессиональная фото- и видеосъёмка, реклама в соцсетях и на площадках — продаём дороже и быстрее.</span></li>
+        <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span class="t"><b>Личный подход без конвейера.</b> Ограниченное число клиентов — вашему вопросу полное внимание.</span></li>
+        <li><span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span><span class="t"><b>Сопровождение под ключ.</b> Беру на себя переговоры, документы и расчёты — вы не остаётесь один на один с бумагами.</span></li>
+      </ul>
+      <div class="hero__cta reveal" data-d="4" style="margin-top:34px">
+        <a href="https://t.me/HideenV" target="_blank" rel="noopener" class="btn btn--primary">Обсудить задачу</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ КАК РАБОТАЮ ============ -->
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Как я работаю</span>
+      <h2>Понятный путь от заявки до сделки</h2>
+      <p class="sub">Прозрачный процесс без сюрпризов: вы всегда знаете, на каком этапе находится ваша задача.</p>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><span class="step__n"></span><h3>Заявка и знакомство</h3><p>Созваниваемся, разбираю вашу задачу, бюджет и сроки. Намечаем стратегию.</p></div>
+      <div class="step reveal" data-d="1"><span class="step__n"></span><h3>Подбор и маркетинг</h3><p>Подбираю объекты или готовлю ваш к продаже: съёмка, реклама, отбор вариантов.</p></div>
+      <div class="step reveal" data-d="2"><span class="step__n"></span><h3>Показы и переговоры</h3><p>Организую просмотры, веду торг и отстаиваю ваши интересы в переговорах.</p></div>
+      <div class="step reveal" data-d="3"><span class="step__n"></span><h3>Сделка и после неё</h3><p>Проверяю документы, сопровождаю расчёты и остаюсь на связи после сделки.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ОБЪЕКТЫ ============ -->
+<section class="objects" id="objects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Объекты</span>
+      <h2>Категории недвижимости<br>в работе</h2>
+      <p class="sub">Работаю во всех сегментах — от вторичного жилья и новостроек до загородных домов и инвестиционных объектов. Фото ниже иллюстрируют категории; здесь разместим ваши актуальные объекты.</p>
+    </div>
+    <div class="objects__grid">
+      <div class="obj reveal"><img class="obj__img" src="assets/obj-vtorichka.jpg" alt="Современная квартира в Москве" loading="lazy"><span class="obj__tag">Вторичка</span><div class="obj__static"><b>Квартиры в Москве</b></div><div class="obj__overlay"><b>Квартиры в Москве</b><p>Подбор и продажа вторичного жилья в проверенных районах.</p></div></div>
+      <div class="obj reveal" data-d="1"><img class="obj__img" src="assets/obj-novostroyki.jpg" alt="Современные новостройки" loading="lazy"><span class="obj__tag">Новостройки</span><div class="obj__static"><b>Новостройки по РФ</b></div><div class="obj__overlay"><b>Новостройки по РФ</b><p>Лоты от застройщиков по всей России без комиссии для покупателя.</p></div></div>
+      <div class="obj reveal" data-d="2"><img class="obj__img" src="assets/obj-premium.jpg" alt="Премиум-интерьер" loading="lazy"><span class="obj__tag">Премиум</span><div class="obj__static"><b>Премиум-сегмент</b></div><div class="obj__overlay"><b>Премиум-сегмент</b><p>Видовые квартиры и дома с индивидуальным подходом и конфиденциальностью.</p></div></div>
+      <div class="obj reveal"><img class="obj__img" src="assets/obj-zagorod.jpg" alt="Загородный дом" loading="lazy"><span class="obj__tag">Загород</span><div class="obj__static"><b>Загородная недвижимость</b></div><div class="obj__overlay"><b>Загородная недвижимость</b><p>Дома, участки и таунхаусы в востребованных направлениях.</p></div></div>
+      <div class="obj reveal" data-d="1"><img class="obj__img" src="assets/obj-arenda.jpg" alt="Квартира-студия в аренду" loading="lazy"><span class="obj__tag">Аренда</span><div class="obj__static"><b>Аренда жилья</b></div><div class="obj__overlay"><b>Аренда жилья</b><p>Долгосрочная аренда с проверенными арендаторами и прозрачным договором.</p></div></div>
+      <div class="obj reveal" data-d="2"><img class="obj__img" src="assets/obj-invest.jpg" alt="Москва-Сити, инвестиционные объекты" loading="lazy"><span class="obj__tag">Инвестиции</span><div class="obj__static"><b>Инвест-объекты</b></div><div class="obj__overlay"><b>Инвест-объекты</b><p>Ликвидные варианты с понятной доходностью и стратегией выхода.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ОТЗЫВЫ ============ -->
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">Отзывы</span>
+      <h2>Что говорят клиенты</h2>
+      <p class="sub">Живые отзывы клиентов агентства «ВамКнам» с Яндекс.Карт.</p>
+    </div>
+    <div class="reviews__grid">
+      <article class="review reveal">
+        <div class="review__stars">★★★★★</div>
+        <p class="review__text">Огромное спасибо агентству «ВамКнам»! Сделали отличные фотографии объекта и провели сделку по очень выгодной цене.</p>
+        <div class="review__person"><span class="review__ava">ДК</span><span><b>Денис К.</b><small>Отзыв с Яндекс.Карт</small></span></div>
+      </article>
+      <article class="review reveal" data-d="1">
+        <div class="review__stars">★★★★★</div>
+        <p class="review__text">Покупала квартиру с помощью этого агентства. Большое спасибо Виктории Колотыриной: всё очень понятно, всегда на связи. Всё разжевала и поддержала во время сделки — всё прошло быстро и спокойно.</p>
+        <div class="review__person"><span class="review__ava">ЮК</span><span><b>Юлия Кравцова</b><small>Отзыв с Яндекс.Карт</small></span></div>
+      </article>
+      <article class="review reveal" data-d="2">
+        <div class="review__stars">★★★★★</div>
+        <p class="review__text">Хотим поблагодарить Юлию за профессионализм и подход к клиентам. В кратчайшие сроки нашла квартиру по запросу и выбила скидку у застройщика. Однозначно рекомендуем!</p>
+        <div class="review__person"><span class="review__ava">Л</span><span><b>Ленария</b><small>Отзыв с Яндекс.Карт</small></span></div>
+      </article>
+    </div>
+    <div class="reviews__more reveal" data-d="1">
+      <a href="https://yandex.ru/maps/org/vamknam/70317070853/reviews/?ll=30.288487%2C59.917702&utm_content=more-reviews&utm_medium=reviews&utm_source=maps-reviews-widget&z=13" target="_blank" rel="noopener" class="btn btn--ghost">Больше отзывов</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq" id="faq">
+  <div class="wrap faq__grid">
+    <div class="reveal">
+      <span class="eyebrow">Вопросы</span>
+      <h2 style="font-size:clamp(28px,3.6vw,42px);margin-top:16px">Частые вопросы</h2>
+      <p class="sub" style="margin-top:18px;color:var(--ink-soft)">Не нашли ответ? Напишите в Telegram — отвечу лично и быстро.</p>
+    </div>
+    <div class="faq__list reveal" data-d="1">
+      <details class="faq__item" open>
+        <summary class="faq__q">Сколько стоят ваши услуги?<span class="faq__icon"></span></summary>
+        <div class="faq__a">Стоимость зависит от задачи и обсуждается до начала работы — без скрытых платежей. На первой консультации называю условия прозрачно, и вы решаете уже с полной картиной.</div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">Вы работаете только по Москве?<span class="faq__icon"></span></summary>
+        <div class="faq__a">Нет. Базируюсь в Москве, но сопровождаю сделки по всей России — лично и онлайн. Современные инструменты позволяют вести показы, переговоры и документы дистанционно.</div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">Как быстро вы отвечаете?<span class="faq__icon"></span></summary>
+        <div class="faq__a">Я на связи 7 дней в неделю в Telegram и по телефону и стараюсь отвечать максимально оперативно. Срочные вопросы решаю в приоритете.</div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">Что входит в сопровождение «под ключ»?<span class="faq__icon"></span></summary>
+        <div class="faq__a">Подбор или подготовку объекта, маркетинг и показы, переговоры и торг, проверку документов, организацию расчётов и помощь после сделки. Вы не остаётесь один на один с бумагами.</div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">Помогаете с ипотекой?<span class="faq__icon"></span></summary>
+        <div class="faq__a">Да. Подберу банк и ставку под вашу ситуацию, помогу собрать документы и пройти одобрение, а сделку сопровожу юридически от начала до конца.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ФИНАЛЬНЫЙ CTA ============ -->
+<section class="cta-final" id="contact">
+  <div class="wrap cta-final__in">
+    <span class="eyebrow reveal" style="color:#fff;justify-content:center">Свяжитесь со мной</span>
+    <h2 class="reveal" data-d="1" style="margin-top:18px">Обсудим вашу задачу <span class="accent">сегодня?</span></h2>
+    <p class="reveal" data-d="2">Расскажите, что нужно — подобрать, продать, сдать или вложиться. Отвечу лично, разберу ситуацию и предложу понятный план действий.</p>
+    <div class="cta-final__btns reveal" data-d="3">
+      <a href="https://t.me/HideenV" target="_blank" rel="noopener" class="btn btn--primary btn--lg">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.94 4.6 18.9 19.2c-.23 1.02-.84 1.27-1.7.79l-4.7-3.46-2.27 2.18c-.25.25-.46.46-.94.46l.33-4.76 8.66-7.82c.38-.33-.08-.52-.59-.18L6.66 13.4l-4.6-1.44c-1-.31-1.02-1 .21-1.48l17.95-6.92c.83-.31 1.56.2 1.29 1.4Z"/></svg>
+        Написать в Telegram
+      </a>
+      <a href="tel:+79167691476" class="btn btn--outline-white btn--lg">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+        +7 916 769-14-76
+      </a>
+    </div>
+    <p class="cta-final__note reveal" data-d="4">На связи 7 дней в неделю · Москва и вся Россия</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ ПОДВАЛ ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div>
+        <a href="#top" class="brand">
+          <span class="brand__mark"><img src="assets/vamknam-mark.png" alt="ВамКнам"></span>
+          <span class="brand__name">Антон Леонов</span>
+        </a>
+        <p class="footer__desc">Частный риелтор агентства ВамКнам. Покупка, продажа, аренда и инвестиции в недвижимость по Москве и всей России. Работа на результат — под ключ.</p>
+      </div>
+      <div>
+        <h4>Навигация</h4>
+        <div class="footer__links">
+          <a href="#services">Услуги</a>
+          <a href="#about">Обо мне</a>
+          <a href="#process">Как работаю</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#faq">Вопросы</a>
+        </div>
+      </div>
+      <div>
+        <h4>Контакты</h4>
+        <div class="footer__links">
+          <a href="tel:+79167691476">+7 916 769-14-76</a>
+          <a href="https://t.me/HideenV" target="_blank" rel="noopener">Telegram · @HideenV</a>
+          <a href="#contact">Оставить заявку</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Антон Леонов · Риелтор, агентство ВамКнам</span>
+      <span>Фото объектов — Pexels (свободная лицензия) · Москва и вся Россия</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ FAB ============ -->
+<div class="fab">
+  <div class="fab__items">
+    <a href="https://t.me/HideenV" target="_blank" rel="noopener" class="fab__btn fab__btn--tg" aria-label="Написать в Telegram">
+      <span class="fab__label">Telegram</span>
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.94 4.6 18.9 19.2c-.23 1.02-.84 1.27-1.7.79l-4.7-3.46-2.27 2.18c-.25.25-.46.46-.94.46l.33-4.76 8.66-7.82c.38-.33-.08-.52-.59-.18L6.66 13.4l-4.6-1.44c-1-.31-1.02-1 .21-1.48l17.95-6.92c.83-.31 1.56.2 1.29 1.4Z"/></svg>
+    </a>
+    <a href="tel:+79167691476" class="fab__btn fab__btn--call" aria-label="Позвонить">
+      <span class="fab__label">+7 916 769-14-76</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+    </a>
+  </div>
+  <button class="fab__btn fab__main" aria-label="Связаться">
+    <span class="fab__pulse"></span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+  </button>
+</div>
+
+<script src="script.js?v=7"></script>
+</body>
+</html>
